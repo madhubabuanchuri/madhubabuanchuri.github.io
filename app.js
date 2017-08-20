@@ -94,7 +94,7 @@ myApp.factory("bookService", function() {
 
 myApp.controller("HeaderCtrl", function($scope, $location) {
 	$scope.appDetails = {};
-	$scope.appDetails.title = "Madhu Anchuri";
+	$scope.appDetails.title = "Madhu Babu Anchuri";
 	$scope.appDetails.tagline = "Software Developer";
 	
 	$scope.nav = {};
