@@ -38,7 +38,7 @@ myApp.factory("bookService", function() {
 		{
 
 			name: "Java",
-			rating: 85,
+			rating: 90,
 			//content: "Content Goes Here"
 		},
         {
@@ -49,34 +49,35 @@ myApp.factory("bookService", function() {
         },
     {
 
-		name: "HTML5, CSS3, Java Script",
+		name: "HTML5, CSS3, Java Script, JQuery, Bootstrap, Ajax",
         rating: 80,
         //content: "Content"
     },
         {
 
-            name: "Angular JS & Angular2",
-            rating: 80,
+            name: "Spring Boot, Spring MVC, Hibernate",
+            rating: 90,
            // content: "Content"
         },
         {
 
-            name: "Typescript",
+            name: "Unix, Linux, Oracle, Sql server, Tomcat, JBoss",
             rating: 80,
+           // content: "Content"
+        }
+        {
+
+            name: "Hadoop, Spark, Pig, Hive, Tableau",
+            rating: 75,
             //content: "Content"
         },
         {
 
-            name: "Spring MVC",
-            rating: 90,
+            name: "AWS, Google App Engine, Docker",
+            rating: 75,
             // content: "Content"
         },
-        {
-
-            name: "Balsamiq",
-            rating: 90,
-           // content: "Content"
-        }
+        
 
 
 	];
@@ -93,7 +94,7 @@ myApp.factory("bookService", function() {
 
 myApp.controller("HeaderCtrl", function($scope, $location) {
 	$scope.appDetails = {};
-	$scope.appDetails.title = "Pratik Nellutla";
+	$scope.appDetails.title = "Madhu Anchuri";
 	$scope.appDetails.tagline = "Software Developer";
 	
 	$scope.nav = {};
