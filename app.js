@@ -64,7 +64,7 @@ myApp.factory("bookService", function() {
             name: "Unix, Linux, Oracle, Sql server, Tomcat, JBoss",
             rating: 80,
            // content: "Content"
-        }
+        },
         {
 
             name: "Hadoop, Spark, Pig, Hive, Tableau",
